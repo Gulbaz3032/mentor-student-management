@@ -36,7 +36,7 @@ class AuthService {
         }
 
         const token = generateToken({ id: user._id, role: user.role });
-        return { user, token };
+        return { user, token }
     }
 }
 
